@@ -1,0 +1,26 @@
+.tableHeader {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-weight: 600;
+}
+.tableHeader1 {
+  position: absolute;
+  height: 16.67%;
+  width: 11.74%;
+  top: 0;
+  right: 49.06%;
+  bottom: 83.33%;
+  left: 39.19%;
+  background-color: var(--primary-background);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-37xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--text-color-text-primary-white);
+  font-family: var(--text-font-header-title);
+}

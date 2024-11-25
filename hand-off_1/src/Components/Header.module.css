@@ -1,0 +1,64 @@
+.imageIcon {
+  width: 396px;
+  position: relative;
+  height: 159px;
+  object-fit: cover;
+}
+.headerChild {
+  width: 3px;
+  position: relative;
+  border-right: 3px solid var(--text-color-text-primary-white);
+  box-sizing: border-box;
+  height: 162px;
+}
+.controlEscolar {
+  position: relative;
+  font-weight: 600;
+}
+.bellIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.frameChild,
+.frameItem {
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--text-color-text-primary-white);
+  box-sizing: border-box;
+  height: 42px;
+}
+.bellParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.headerInner {
+  flex: 1;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-background);
+  width: 1152px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--text-color-text-primary-white);
+  font-family: var(--text-font-header-title);
+}

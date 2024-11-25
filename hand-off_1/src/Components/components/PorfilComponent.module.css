@@ -1,0 +1,65 @@
+.heading1 {
+  position: absolute;
+  top: -78.95%;
+  left: -76.92%;
+  white-space: pre-wrap;
+}
+.heading {
+  width: 65px;
+  position: relative;
+  height: 19px;
+}
+.titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.buttonStyle3 {
+  width: 50px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-background);
+  height: 50px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--text-color-text-primary-white);
+  font-family: var(--button-font-giant);
+}
+.chevronParent,
+.frameParent,
+.newObject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.newObject {
+  flex: 1;
+  background-color: var(--text-color-text-primary-white);
+  height: 82px;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-8xl) var(--padding-44xl);
+  box-sizing: border-box;
+  gap: var(--gap-167xl-5);
+}
+.chevronParent,
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--text-font-header-title-size);
+  color: var(--primary-background);
+  font-family: var(--text-font-header-title);
+}
