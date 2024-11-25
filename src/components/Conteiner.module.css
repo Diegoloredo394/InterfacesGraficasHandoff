@@ -1,0 +1,106 @@
+.dashboard {
+  margin: 0;
+}
+.heading1 {
+  position: absolute;
+  top: -205.26%;
+  left: -127.69%;
+}
+.heading {
+  width: 65px;
+  position: relative;
+  height: 19px;
+}
+.titles {
+  width: 87px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--text-font-header-title-size);
+  font-family: var(--text-font-header-title);
+}
+.searchExample {
+  position: relative;
+  font-weight: 600;
+}
+.input {
+  position: absolute;
+  height: 57.35%;
+  width: 93.98%;
+  top: 42.65%;
+  right: 0;
+  bottom: 0;
+  left: 6.02%;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.heading3,
+.titles1 {
+  position: absolute;
+  top: 0;
+}
+.heading3 {
+  left: 3.08%;
+  font-weight: 600;
+}
+.titles1 {
+  height: 42.65%;
+  width: 93.93%;
+  right: 0;
+  bottom: 57.35%;
+  left: 6.07%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--black-100);
+}
+.inputWithLabel {
+  width: 379px;
+  position: relative;
+  height: 68px;
+}
+.heading5 {
+  position: absolute;
+  top: 0;
+  left: -38.46%;
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.conteiner,
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.inputs {
+  align-self: stretch;
+  height: 204px;
+  color: var(--color-slategray);
+}
+.conteiner {
+  width: 554px;
+  border-radius: var(--br-3xs);
+  background-color: var(--text-color-text-primary-white);
+  border: 1px solid var(--black-100);
+  box-sizing: border-box;
+  height: 474px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-36xl) var(--padding-xl) var(--padding-6xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--primary-background);
+  font-family: var(--button-font-giant);
+}

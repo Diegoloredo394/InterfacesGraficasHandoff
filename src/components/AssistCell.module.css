@@ -1,0 +1,21 @@
+.assistCell,
+.assistCellChild {
+  background-color: var(--text-color-text-primary-white);
+  box-sizing: border-box;
+}
+.assistCellChild {
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--primary-background);
+  height: 20px;
+}
+.assistCell {
+  flex: 1;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-37xl);
+}

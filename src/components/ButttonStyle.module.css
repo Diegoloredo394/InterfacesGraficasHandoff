@@ -1,0 +1,25 @@
+.button {
+  position: relative;
+  font-weight: 600;
+}
+.root {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--primary-background);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--text-color-text-primary-white);
+  font-family: var(--text-font-header-title);
+}
+.root[data-state="White"] {
+  background-color: var(--text-color-text-primary-white);
+}
+.root[data-state="White"] .button {
+  font-family: var(--button-font-giant);
+  color: var(--black-100);
+}
