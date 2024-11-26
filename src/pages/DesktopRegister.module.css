@@ -1,0 +1,85 @@
+.imageIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 159px;
+  object-fit: cover;
+}
+.headerChild {
+  flex: 1;
+  position: relative;
+  border-right: 3px solid var(--text-color-text-primary-white);
+  box-sizing: border-box;
+  height: 162px;
+}
+.controlEscolar {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.header {
+  align-self: stretch;
+  background-color: var(--primary-background);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-11xl);
+  gap: var(--gap-11xl);
+  margin-top: 700px;
+}
+.background {
+  width: 15px;
+  position: relative;
+  background-color: var(--primary-thin-line);
+  height: 1234px;
+  transform: rotate(90deg);
+  margin-top: -1234px;
+}
+.headerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.backgroundChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-background);
+}
+.background1 {
+  width: 60px;
+  position: relative;
+  height: 1234px;
+}
+.desktopregister,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+  gap: 83px;
+}
+.desktopregister {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-silver);
+  height: 1024px;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--text-color-text-primary-white);
+  font-family: var(--text-font-header-title);
+}

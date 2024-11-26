@@ -1,0 +1,15 @@
+.enero2025 {
+  position: relative;
+}
+.month {
+  background-color: var(--text-color-text-primary-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black-100);
+  font-family: var(--text-font-header-title);
+}

@@ -1,0 +1,149 @@
+.background {
+  width: 1148px;
+  position: relative;
+  background-color: var(--primary-thin-line);
+  height: 15px;
+}
+.headerParent {
+  width: 1148px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading1 {
+  position: absolute;
+  top: -78.95%;
+  left: -110.77%;
+}
+.heading {
+  width: 65px;
+  position: relative;
+  height: 19px;
+}
+.titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.imageIcon,
+.newObject {
+  align-self: stretch;
+  overflow: hidden;
+}
+.newObject {
+  background-color: var(--text-color-text-primary-white);
+  height: 82px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-8xl) var(--padding-44xl);
+  box-sizing: border-box;
+}
+.imageIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imageWrapper {
+  width: 148px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loremIpsumDolor {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.butttonStyle2Parent,
+.cardSemesterClasAndMateria {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.butttonStyle2Parent {
+  width: 170px;
+  height: 190px;
+  flex-direction: column;
+  padding: var(--padding-xl) 0;
+}
+.cardSemesterClasAndMateria {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--text-color-text-primary-white);
+  border: 1px solid var(--black-100);
+  height: 240px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-6xl);
+}
+.cardSemesterClasAndMateriaParent {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xl) var(--padding-31xl);
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--black-100);
+}
+.cardSemesterClasAndMateriaParent,
+.newObjectParent,
+.sidebarParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.newObjectParent {
+  flex: 1;
+  background-color: var(--text-color-text-primary-white);
+  flex-direction: column;
+  align-items: center;
+}
+.sidebarParent {
+  height: 769px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.backgroundIcon {
+  width: 1148px;
+  position: relative;
+  height: 60px;
+  object-fit: contain;
+}
+.desktopclass,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+}
+.desktopclass {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-slategray);
+  height: 1024px;
+  overflow: hidden;
+  padding: 0 var(--padding-126xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--text-font-header-title-size);
+  color: var(--primary-background);
+  font-family: var(--text-font-header-title);
+}
