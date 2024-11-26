@@ -30,9 +30,12 @@ const DesktopClass = () => {
           />
           <div className={styles.background} />
         </div>
+        
         <div className={styles.sidebarParent}>
           <Sidebar property1="Default" showButttonStyle2 />
-          <div className={styles.newObjectParent}>
+
+          {/* Empieza comentando aquí */}
+          {/* <div className={styles.newObjectParent}>
             <div className={styles.newObject}>
               <div className={styles.titles}>
                 <div className={styles.heading}>
@@ -52,6 +55,7 @@ const DesktopClass = () => {
                 />
               )}
             </div>
+            
             <div className={styles.cardSemesterClasAndMateriaParent}>
               <div className={styles.cardSemesterClasAndMateria}>
                 <div className={styles.imageWrapper}>
@@ -89,6 +93,7 @@ const DesktopClass = () => {
                   />
                 </div>
               </div>
+              
               <div className={styles.cardSemesterClasAndMateria}>
                 <div className={styles.imageWrapper}>
                   <img
@@ -126,8 +131,9 @@ const DesktopClass = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
+        
         <img
           className={styles.backgroundIcon}
           alt=""

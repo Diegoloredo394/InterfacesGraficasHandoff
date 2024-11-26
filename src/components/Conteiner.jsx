@@ -8,7 +8,7 @@ const Conteiner = ({ className = "" }) => {
   const navigate = useNavigate();
 
   const onButtonStyle1ContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/DesktopSemester");
   }, [navigate]);
 
   return (

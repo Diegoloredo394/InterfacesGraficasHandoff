@@ -5,17 +5,17 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import DesktopSemester from "./pages/DesktopSemester";
 import DesktopLogin from "./pages/DesktopLogin";
+import DesktopParticipation from "./pages/DesktopParticipation";
+import DesktopSemester from "./pages/DesktopSemester";
 import DesktopUploadResources from "./pages/DesktopUploadResources";
 import DesktopProfile from "./pages/DesktopProfile";
 import DesktopNewReminder from "./pages/DesktopNewReminder";
 import DesktopResources from "./pages/DesktopResources";
 import DesktopGrades from "./pages/DesktopGrades";
-import DesktopParticipation from "./pages/DesktopParticipation";
 import DesktopClass from "./pages/DesktopClass";
 import DesktopModal from "./pages/DesktopModal";
-import DesktopRegister from "./pages/DesktopRegister";
+import DesktopRegister from "./pages/DesktopRegister"; // Importa DesktopRegister
 
 function App() {
   const action = useNavigationType();
@@ -37,7 +37,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/desktoplogin":
+      case "/desktopsemester":
         title = "";
         metaDescription = "";
         break;
@@ -58,10 +58,6 @@ function App() {
         metaDescription = "";
         break;
       case "/desktopgrades":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/desktopparticipation":
         title = "";
         metaDescription = "";
         break;
@@ -95,17 +91,15 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<DesktopSemester />} />
-      <Route path="/desktoplogin" element={<DesktopLogin />} />
-      <Route
-        path="/desktopupload-resources"
-        element={<DesktopUploadResources />}
-      />
+      <Route path="/" element={<DesktopRegister />} /> {/* Cambiado a DesktopRegister */}
+      <Route path="/login" element={<DesktopLogin />} />
+      <Route path="/participation" element={<DesktopParticipation />} />
+      <Route path="/desktopsemester" element={<DesktopSemester />} />
+      <Route path="/desktopupload-resources" element={<DesktopUploadResources />} />
       <Route path="/desktopprofile" element={<DesktopProfile />} />
       <Route path="/desktopnew-reminder" element={<DesktopNewReminder />} />
       <Route path="/desktopresources" element={<DesktopResources />} />
       <Route path="/desktopgrades" element={<DesktopGrades />} />
-      <Route path="/desktopparticipation" element={<DesktopParticipation />} />
       <Route path="/desktopclass" element={<DesktopClass />} />
       <Route path="/desktopmodal" element={<DesktopModal />} />
       <Route path="/desktopregister" element={<DesktopRegister />} />

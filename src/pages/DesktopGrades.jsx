@@ -9,7 +9,7 @@ const DesktopGrades = () => {
   const navigate = useNavigate();
 
   const onChevronContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/DesktopSemester");
   }, [navigate]);
 
   return (
