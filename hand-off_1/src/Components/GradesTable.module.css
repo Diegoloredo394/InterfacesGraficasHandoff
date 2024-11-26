@@ -1,9 +1,0 @@
-.gradesTable {
-  align-self: stretch;
-  position: relative;
-  height: 249px;
-  text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--text-color-text-primary-white);
-  font-family: var(--text-font-header-title);
-}
